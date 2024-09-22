@@ -18,7 +18,7 @@ Site Pages:
 index page (landing page) (Refrence index page: https://mapoftheuniverse.net/)
 map page
 planet page (try to find instering planets)
-
+transition between pages (warp space gif, star wars shit)
 
 idea might implemant:
 escape velocity simulated by mouse
