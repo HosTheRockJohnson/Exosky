@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import '../css/Galaxy.css'
-
+import { Link } from 'react-router-dom';
 import { useRef, useEffect } from 'react';
 import data from '../data/exoplanets.json'
 
@@ -106,6 +106,8 @@ export default function Map() {
 
     return (
         <>
+            <Link to='*'><div className="void"></div></Link>
+            <Link to='/'><div className="back-to-map"></div></Link>
             <div id="canvas-container" style={{ position: 'relative' }}>
                 <canvas id="dotCanvas"></canvas>
             </div>

@@ -8,7 +8,7 @@ export default function Planet() {
     return (
         <>
             <Link to='/map'><div className="back-to-map"></div></Link>
-            <div className="container">
+            <div className="container1">
                 <h2 className="description-label-1">{planet.pl_name}</h2>
                 <hr />
                 <div className="brief-description">
@@ -62,6 +62,16 @@ export default function Planet() {
                             <span className="info-label">RADIUS</span> {planet.st_rad} x Our Sun
                         </p>
                     </div>
+                </div>
+                <div className="detection-method">
+                    <p className='detection-method-headline'>Detection Method: </p>
+                    <p className='detection-method-headline'>{planet.discoverymethod}</p>
+                    <p className="detection-method-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab iure exercitationem explicabo distinctio unde magni. A ipsa delectus distinctio, adipisci fugit ducimus consequuntur, nam magnam quas assumenda cum est earum.</p>
+                </div>
+                <div className="observed-by">
+                    <p className='observed-by-label'>Observed By:</p>
+                    <img className='observed-by-img' src='../src/imgs/tess.webp' alt='obs'></img>
+                    <p className="observed-by-value">{planet.disc_facility}</p>
                 </div>
             </div>
         </>

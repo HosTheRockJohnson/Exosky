@@ -9,7 +9,7 @@ import '../css/LandingPage.css'
 export default function LandingPage() {
 
     const [videoShown, setVideoShown] = useState(false)
-    let videoTime = 33;
+    let videoTime = 8;
 
     function videoPlayer() {
         setVideoShown(!videoShown);
