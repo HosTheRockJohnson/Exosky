@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import planetData from '../data/exoplanets.json';
@@ -66,7 +67,17 @@ export default function Planet() {
                 <div className="detection-method">
                     <p className='detection-method-headline'>Detection Method: </p>
                     <p className='detection-method-headline'>{planet.discoverymethod}</p>
-                    <p className="detection-method-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab iure exercitationem explicabo distinctio unde magni. A ipsa delectus distinctio, adipisci fugit ducimus consequuntur, nam magnam quas assumenda cum est earum.</p>
+                    {
+                        planet.discoverymethod === "Transit" ? (
+                            <p className="detection-method-description">
+                                If a planet passes directly between a star and an observer's line of sight, it blocks out a tiny portion of the star's light, thus reducing its apparent brightness. Sensitive instruments can detect this periodic dip in brightness. From the period and depth of the transits, the orbit and size of the planetary companions can be calculated. Smaller planets will produce a smaller effect, and vice-versa. A terrestrial planet in an Earth-like orbit, for example, would produce a minute dip in stellar brightness that would last just a few hours.
+                            </p>
+                        ) : (
+                            <p className="detection-method-description">
+                                The radial velocity method measures slight changes in a star's velocity as the star and the planet move about their common center of mass. Astronomers can detect these variances by analyzing the spectrum of starlight. In an effect known as Doppler shift, light waves from a star moving toward us are shifted toward the blue end of the spectrum. If the star is moving away, the light waves shift toward the red end of the spectrum. This happens because the waves become compressed when the star is approaching the observer and spread out when the star is receding. The effect is similar to the change in pitch we hear in a train's whistle as it approaches and passes
+                            </p>
+                        )
+                    }
                 </div>
                 <div className="observed-by">
                     <p className='observed-by-label'>Observed By:</p>
