@@ -98,5 +98,25 @@
     "x": -0.60196362867601061,
     "y": 0.64221925793694901,
     "z": 0.47454632491056603
+  },
+  {
+    "pl_id": "hat-p-7-b",
+    "pl_name": "Hat-P-7 b",
+    "planet_type": "Gas Giant",
+    "img-path": "https://www.boredpanda.com/blog/wp-content/uploads/2018/10/Strangest-Exoplanets-Out-There-5bbcaca66be74__700.jpg",
+    "description": "HAT-P-7b is located in the Cygnus constellation, about 1000 light-years from Earth. On the night side of this strange planet, high precipitation of aluminum oxide (corundum) is found in the atmosphere.Because corundum gems are rubies and sapphires, one can describe the hypothetical weather on the planet’s night side as “raining rubies and sapphires.” The planet also faces violent storms, so it’s likely that these rubies and sapphires are scattered planet-wide.",
+    "disc_year": 2009,
+    "pl_orbsmax": 0.03676,
+    "pl_orbper": 2.2,
+    "pl_orbeccen": 0,
+    "pl_masse": 1.84,
+    "pl_radj": 1.51,
+    "st_mass": 1.56,
+    "st_rad": 2,
+    "discoverymethod": "Transit",
+    "disc_facility": "HATNet",
+    "x": -0.60196362867601061,
+    "y": 0.64221925793694901,
+    "z": 0.47454632491056603
   }
 ]
