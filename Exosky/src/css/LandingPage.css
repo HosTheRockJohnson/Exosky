@@ -5,7 +5,7 @@
 
 .landing-page {
     height: 3072px;
-    background-image: url("../imgs/LandingPageBG.png");
+    background-image: url("src/imgs/LandingPageBG.png");
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -38,6 +38,7 @@ span {
 .smaller-text {
     font-size: 0.5em;
 }
+
 .start-button {
     font-family: "NFS_by_JLTV";
     font-size: 2.5em;
@@ -49,9 +50,9 @@ span {
     box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 40px 15px;
     transition: all 0.3s ease;
     cursor: pointer;
-}   
+}
 
 .start-button:hover {
-    transform: translateY(-3px); 
+    transform: translateY(-3px);
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
 }

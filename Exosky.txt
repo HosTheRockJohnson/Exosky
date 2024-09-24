@@ -5,7 +5,7 @@ Presentation (7 slides only)(researcher job)
 
 intro (what is exo planets 2 slides)
 
-research (3 slides) (qazar,black hole,blue star,habitable planet,classfication,how to dicover planets {radial velocity})
+research (3 slides) (qazar,black hole,blue star,habitable planet,classfication)
 
 technical(3 slide)
 
@@ -18,7 +18,7 @@ Site Pages:
 index page (landing page) (Refrence index page: https://mapoftheuniverse.net/)
 map page
 planet page (try to find instering planets)
-transition between pages (warp space gif, star wars shit)
+
 
 idea might implemant:
 escape velocity simulated by mouse

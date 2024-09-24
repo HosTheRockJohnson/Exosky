@@ -8,7 +8,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/planet" element={< Planet />} />
+        <Route path="/planet/:planetId" element={<Planet />} />
         <Route path="/map" element={< Map />} />
       </Routes>
     </BrowserRouter>
