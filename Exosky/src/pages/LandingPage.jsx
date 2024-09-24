@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import { useState } from 'react';
 import { Link, Navigate, replace, useNavigate } from 'react-router-dom';
@@ -8,7 +9,7 @@ import '../css/LandingPage.css'
 export default function LandingPage() {
 
     const [videoShown, setVideoShown] = useState(false)
-    let videoTime = 15;
+    let videoTime = 33;
 
     function videoPlayer() {
         setVideoShown(!videoShown);
